@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الخبرة المهنية - HR Ninja</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            background: black;
+            direction: rtl;
+            text-align: right;
+        }
+        .background {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            width: 80px;
+            border-radius: 50%;
+        }
+        .language-selector {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .language-selector a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        .language-selector a:hover {
+            text-decoration: underline;
+        }
+        .cards-section {
+text-align: center;
+            padding: 20px;
+        }
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card {
+            background: #222;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+        }
+        .card img {
+            display: block;
+            margin: 0 auto 20px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        .card h2 {
+            text-align: center;
+            font-size: 1.8em;
+        }
+        .card ul {
+            margin: 10px 0;
+            padding: 0 20px;
+            list-style: disc;
+        }
+        .card ul li {
+            margin: 5px 0;
+            font-size: 1em;
+        }
+        .card.gray-background {
+            background: #999;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+        footer .links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1em;
+        }
+        footer .links a:hover {
+            text-decoration: underline;
+        }
+        footer p {
+            margin: 10px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index-ar.html"><img src="images/logo.jpg" alt="شعار" class="logo"></a>
+        <div class="language-selector">
+            <a href="professional-experience-en.html">En</a> |
+            <a href="professional-experience-ar.html">Ar</a> |
+            <a href="professional-experience-fr.html">Fr</a>
+        </div>
+    </header>
+</body>
+<main class="cards-section">
+    <h1>الخبرة المهنية</h1>
+</main>
+    <div class="cards-container">
+        <!-- البطاقات العادية -->
+        <div class="card">
+            <img src="images/companies/KabnouryVenturesdark.jpg" alt="التجربة 1">
+            <h2>كابنوري فينتشرز</h2>
+            <h3>شركة استثمار رأس المال المغامر تستثمر في الشركات الناشئة الجديدة</h3>
+            <h4>بعض الشركات الناشئة: <a href="https://thegreenmatter.com/">جرين ماتر</a> |
+                <a href="https://play.google.com/store/apps/details?id=com.nationtech.awss">عواس</a> |
+                <a href="https://www.instagram.com/kadabra.digital.agency/">كادابرا</a>
+            </h4>
+            <ul>
+                <li>الوظيفة: مدير الموارد البشرية</li>
+                <li>إدارة فريق مكون من عضوين</li>
+                <li>الإشراف على جهود التوظيف، بما في ذلك استقطاب المرشحين، إجراء المقابلات، واختيارهم لمختلف الوظائف.</li>
+                <li>معالجة شكاوى الموظفين، حل النزاعات، الإجراءات التأديبية، وتعزيز علاقات العمل الإيجابية داخل الشركة.</li>
+                <li>ضمان تنفيذ هيكليات تعويض عادلة وإدارة حزم المزايا للموظفين.</li>
+                <li>تطوير سياسات الموارد البشرية بما يتوافق مع قوانين العمل/التشريعات مع مواءمتها مع قيم الشركة.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <img src="images/companies/dma.jpg" alt="التجربة 2">
+            <h2>دي إم إيه</h2>
+            <h3>شركة استشارات هندسية وتصميم | تابعة لشركة DMG | ماونتن فيو</h3>
+            <ul>
+                <li>الوظيفة: شريك موارد بشرية أول</li>
+                <li>إدارة عضو واحد</li>
+                <li>تقديم جميع التقارير والتحليلات للإدارة العليا لدعم اتخاذ القرار</li>
+                <li>مسؤول عن أكثر من 290 موظفًا وتلبية طلباتهم المختلفة.</li>
+                <li>قيادة عملية التوظيف من الاستقطاب إلى التعيين.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <img src="images/companies/wataneya.jpg" alt="التجربة 3">
+            <h2>الوطنية</h2>
+            <h3>شركة استثمار رأس المال المغامر تستثمر في الشركات الناشئة الجديدة</h3>
+            <ul>
+                <li>الوظيفة: مشرف</li>
+                <li>إدارة فريق مكون من 3 أعضاء (1 موارد بشرية و2 إداريين)</li>
+                <li>التخطيط والإدارة والتنسيق والمراقبة وتنفيذ المهام المطلوبة من الإدارة العليا.</li>
+                <li>ضمان تنفيذ جميع عمليات التوظيف بما يتماشى مع قوانين ولوائح العمل.</li>
+                <li>تحليل وإدارة تقييم الأداء للموظفين لتحسين الكفاءة التشغيلية.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <img src="images/companies/businesscastle_logo.jpg" alt="التجربة 4">
+            <h2>بزنس كاسل</h2>
+            <h3>شركة قابضة تعمل عبر مختلف القطاعات، بما في ذلك البناء، العقارات، والتعليم.</h3>
+            <ul>
+                <li>الوظيفة: شريك موارد بشرية</li>
+                <li>التعاون مع أعضاء فريق الموارد البشرية الآخرين لتنفيذ استراتيجيات توظيف مبتكرة وشاملة.</li>
+                <li>تقديم إرشادات يومية لإدارة الأداء لمديري الخطوط.</li>
+                <li>عقد اجتماعات شهرية مع قادة الأعمال وتقديم المشورة حيثما كان ذلك ضروريًا.</li>
+                <li>هيكلة حزم التعويضات والمزايا.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <img src="images/companies/arabeyaonline.jpg" alt="التجربة 5">
+            <h2>العربية أونلاين</h2>
+            <h3>وسيط سوق الأوراق المالية - إحدى شركات بنك عودة</h3>
+            <ul>
+                <li>الوظيفة: أخصائي أول موارد بشرية</li>
+                <li>إدارة عملية المقابلة والاختيار والانضمام وتوظيف الموظفين الجدد.</li>
+                <li>تنظيم تقييم أداء الموظفين ربع السنوي والسنوي.</li>
+            </ul>
+        </div>
+<div class="card">
+    <img src="images/companies/kpmg.jpg" alt="Experience 2">
+    <h2>كي بي إم جي</h2>
+    <h3>شبكة عالمية من الشركات المهنية تقدم خدمات التدقيق والضرائب والاستشارات.</h3>
+    <ul>
+        <li>المسمى الوظيفي: مستشار تطوير المؤسسات</li>
+        <li>تحقق من تفاصيل المشاريع في <a href="file:///D:/C/Downloads/File/009/HN/consultant-projects-en.html">مشاريع المستشارين</a></li>
+    </ul>
+</div>
+<div class="card">
+    <img src="images/companies/C4C.jpg" alt="Experience 2">
+    <h2>رعاية للتموين</h2>
+    <h3>خدمات التموين والنفط</h3>
+    <ul>
+        <li>المسمى الوظيفي: أخصائي موارد بشرية</li>
+        <li>الإدارة والإشراف على 500 موظف، بما في ذلك جدولة العمل لمواقع البترول وجميع الوثائق ذات الصلة.</li>
+    </ul>
+</div>
+<div class="card">
+    <img src="images/companies/memco.jpg" alt="Experience 2">
+    <h2>استثمارات التعدين في الشرق الأوسط</h2>
+    <h3>استثمارات التعدين</h3>
+    <ul>
+        <li>المسمى الوظيفي: منسق موارد بشرية</li>
+    </ul>
+</div>
+
+        <!-- بطاقات ذات خلفية رمادية -->
+        <div class="card gray-background">
+            </img src="images/exp_gray1.jpg" alt="التجربة 9">
+            <h2>أسرار كليوباترا</h2>
+            <h3>عملي الشخصي يركز على تصدير إكسسوارات يدوية مخصصة إلى سنغافورة بنظام الطلب المسبق.</h3>
+        </div>
+<div class="card gray-background">
+    </img src="images/exp_gray1.jpg" alt="Experience 9">
+    <h2>كوبرا</h2>
+    <h3>شريك في بيزنس متخصص في تصدير المنتجات الجلدية إلى أفريقيا، وبالتحديد كينيا وتنزانيا.</h3>
+</div>
+<div class="card gray-background">
+    </img src="images/exp_gray1.jpg" alt="Experience 9">
+    <h2>أصالة</h2>
+    <h3>شريك في مطعم كباب في وارسو، بولندا.</h3>
+</div>
+<div class="card gray-background">
+    </img src="images/exp_gray1.jpg" alt="Experience 9">
+    <h2>خردة</h2>
+    <h3>شريك في بيزنس يتعلق بتجارة الخردة.</h3>
+</div>
+<!-- إضافة بطاقتين إضافيتين بخلفية رمادية -->
+</div>
+</main>
+    </div>
+</main>
+<footer>
+    <div class="links">
+        <a href="about-ar.html">عن الموقع</a> |
+        <a href="consultant-projects-ar.html">مشاريع الاستشارات</a> |
+        <a href="certificates-ar.html">الشهادات</a> |
+        <a href="job-seekers-tool.html">أداة الباحثين عن عمل</a> |
+        <a href="top-management-tool-ar.html">أدوات الإدارة العليا</a> |
+        <a href="techhr-fusion-ar.html">TechHR Fusion</a> |
+        <a href="contact-ar.html">اتصل بنا</a>
+    </div>
+    <p>&copy; 2024 نينجا الموارد البشرية. جميع الحقوق محفوظة.</p>
+</footer>
+</body>
+</html>

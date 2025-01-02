@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Ninja - الصفحة الرئيسية</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            background: black;
+            direction: rtl;
+        }
+        .background {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            width: 80px;
+            border-radius: 50%;
+        }
+        .personal-photo {
+            width: 100px;
+            border-radius: 50%;
+        }
+        .language-selector {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .language-selector a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        .language-selector a:hover {
+            text-decoration: underline;
+        }
+        .welcome-section {
+            text-align: center;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        .welcome-section h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .welcome-section p {
+            font-size: 1.2em;
+        }
+        .links {
+            margin-top: 10px;
+            font-size: 1em;
+        }
+        .links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+        }
+        @media (max-width: 768px) {
+            .welcome-section h1 {
+                font-size: 2em;
+            }
+            .welcome-section p {
+                font-size: 1em;
+            }
+            .logo {
+                width: 60px;
+            }
+            .personal-photo {
+                width: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <header>
+            <a href="index-ar.html"><img src="images/logo.jpg" alt="الشعار" class="logo"></a>
+            <nav class="language-selector">
+                <a href="index-en.html">En</a>
+                <a href="index-ar.html">Ar</a>
+                <a href="index-fr.html">Fr</a>
+            </nav>
+            <img src="images/personal-photo.jpg" alt="الصورة الشخصية" class="personal-photo">
+        </header>
+        <main class="welcome-section">
+            <h1>مرحبًا بكم في HR Ninja</h1>
+            <p>شريكك الموثوق في حلول الموارد البشرية والإرشاد الوظيفي.</p>
+            <div class="links">
+                <a href="about-ar.html">من نحن</a> |
+                <a href="professional-experience-ar.html">الخبرة المهنية</a> |
+                <a href="consultant-projects-ar.html">مشروعات استشارية</a> |
+                <a href="certificates-ar.html">الشهادات</a> |
+                <a href="job-seekers-tool.html">أدوات الباحثين عن عمل</a> |
+                <a href="top-management-tools-ar.html">أدوات الإدارة العليا</a> |
+                <a href="contact-ar.html">اتصل بنا</a>
+ <a href="TechHR-Fusion-ar.html">TechHR Fusion</a>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 HR Ninja. جميع الحقوق محفوظة.</p>
+            <nav>
+                <a href="contact-ar.html">اتصل بنا</a>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>

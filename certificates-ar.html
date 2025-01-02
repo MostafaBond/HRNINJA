@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الشهادات - HR Ninja</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            background: black;
+        }
+        .background {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            width: 80px;
+            border-radius: 50%;
+        }
+        .languages {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .languages a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        .languages a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .content h1 {
+            font-size: 3em;
+        }
+        .content p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+        .links {
+            margin-top: 20px;
+            font-size: 1em;
+        }
+        .links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+        }
+        .cards-section {
+            padding: 20px;
+        }
+        .cards-section h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .cards-section p {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card {
+            background: #222;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .card h2 {
+            margin: 0 0 10px;
+            font-size: 1.5em;
+        }
+        .card p {
+            margin: 5px 0;
+            font-size: 1em;
+        }
+        .card a {
+            color: #1E90FF;
+            text-decoration: none;
+        }
+        .card a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+        footer .links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1em;
+        }
+        footer .links a:hover {
+            text-decoration: underline;
+        }
+        footer p {
+            margin: 10px 0 0;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 90%;
+            }
+            header .languages a {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index-ar.html"><img src="images/logo.jpg" alt="الشعار" class="logo"></a>
+        <div class="languages">
+            <a href="certificates-en.html">En</a> | 
+            <a href="certificates-ar.html">عربي</a> | 
+            <a href="certificates-fr.html">Fr</a>
+        </div>
+    </header>
+   <main class="cards-section">
+    <h1>الشهادات</h1>
+    <p>تعرض هذه الصفحة الدورات والشهادات المتنوعة الخاصة بي، مما يعكس تنوع خبراتي وقدرتي على دمج الأفكار من مختلف المجالات في تطوير مسيرتي المهنية.</p>
+    <div class="cards-container">
+        <!-- Card 1 -->
+        <div class="card">
+            <h2>بكالوريوس في القانون</h2>
+            <p><strong>الملخص:</strong> دراسة القانون، فلسفة العدالة، النظم القانونية العامة، القوانين الدولية، مع تخصص في قانون العمل المصري.</p>
+            <p><strong>السنة:</strong> 2007</p>
+            <p><strong>التقدير:</strong> جيد جدًا</p>
+            <p><strong>المؤسسة:</strong> جامعة عين شمس</p>
+            <p><strong>الروابط:</strong> <a href="https://www.asu.edu.eg/ar" target="_blank">المؤسسة</a></p>
+        </div>
+        <!-- Card 2 -->
+        <div class="card">
+            <h2>دبلومة الموارد البشرية</h2>
+            <p><strong>الملخص:</strong> إدارة الموارد البشرية الاستراتيجية، تحليل الوظائف، تخطيط الأفراد، التوظيف، التدريب، الأداء، وقانون العمل.</p>
+            <p><strong>السنة:</strong> 2013</p>
+            <p><strong>التقدير:</strong> A+</p>
+            <p><strong>المؤسسة:</strong> RITI</p>
+            <p><strong>تحميل الأطروحة:</strong> <a href="#" target="_blank">تحميل</a></p>
+        </div>
+        <!-- Card 3 -->
+        <div class="card">
+            <h2>مقدمة في تحسين محركات البحث</h2>
+            <p><strong>الملخص:</strong> أساسيات تحسين رؤية المواقع وتصنيفات البحث.</p>
+            <p><strong>السنة:</strong> 2017</p>
+            <p><strong>المؤسسة:</strong> جامعة كاليفورنيا، ديفيس</p>
+            <p><strong>الروابط:</strong> <a href="https://www.coursera.org/specializations/seo#about" target="_blank">ملخص الدورة</a> | <a href="https://www.ucdavis.edu" target="_blank">المؤسسة</a></p>
+            <p><strong>الشهادة:</strong> <a href="images/Cer_SEO" target="_blank">عرض الصورة</a></p>
+            <p><strong>تحميل:</strong> <a href="https://drive.google.com/file/d/1iCLL4n1M2cv8b1pHdM0Kimsd3U9RPjC4/view" target="_blank">تحميل</a></p>
+        </div>
+        <!-- Card 4 -->
+        <div class="card">
+            <h2>التفاوض الناجح: استراتيجيات ومهارات أساسية</h2>
+            <p><strong>الملخص:</strong> تقنيات التفاوض الفعّال لتحقيق النجاح المهني.</p>
+            <p><strong>السنة:</strong> 2014</p>
+            <p><strong>المؤسسة:</strong> كلية روس للأعمال، جامعة ميشيغان</p>
+            <p><strong>الروابط:</strong> <a href="https://www.coursera.org/learn/negotiation-skills#about" target="_blank">ملخص الدورة</a> | <a href="https://umich.edu" target="_blank">المؤسسة</a></p>
+        </div>
+        <!-- Card 5 -->
+        <div class="card">
+            <h2>أساسيات Lean Six Sigma</h2>
+            <p><strong>الملخص:</strong> مبادئ Lean و Six Sigma لتحسين العمليات.</p>
+            <p><strong>السنة:</strong> 2016</p>
+            <p><strong>المؤسسة:</strong> LinkedIn Learning</p>
+            <p><strong>الشهادة:</strong> <a href="images/Cer_Lean" target="_blank">عرض الصورة</a></p>
+            <p><strong>تحميل:</strong> <a href="https://drive.google.com/file/d/1OKBIt2Bv5W0Q_k5G7caKPfMzHRmfaAzc/view" target="_blank">تحميل</a></p>
+        </div>
+        <!-- Card 6 -->
+        <div class="card">
+            <h2>مقدمة في التحدث أمام الجمهور</h2>
+            <p><strong>الملخص:</strong> تقنيات لإلقاء الخطب بشكل جذاب وفعّال.</p>
+            <p><strong>السنة:</strong> 2014</p>
+            <p><strong>المؤسسة:</strong> جامعة واشنطن</p>
+            <p><strong>الروابط:</strong> <a href="https://www.edx.org/learn/public-speaking/university-of-washington-introduction-to-public-speaking#about" target="_blank">ملخص الدورة</a> | <a href="https://www.washington.edu" target="_blank">المؤسسة</a></p>
+        </div>
+        <!-- Card 7 -->
+        <div class="card">
+            <h2>هندسة الطلبات الموجهة لـ ChatGPT</h2>
+            <p><strong>الملخص:</strong> إنشاء طلبات مثالية لنماذج الذكاء الاصطناعي لتوليد ردود مفيدة.</p>
+            <p><strong>السنة:</strong> 2024</p>
+            <p><strong>المؤسسة:</strong> جامعة فاندربيلت</p>
+            <p><strong>الشهادة:</strong> <a href="images/Cer_GPT" target="_blank">عرض الصورة</a></p>
+            <p><strong>تحميل:</strong> <a href="https://drive.google.com/file/d/1YapQh-l3KMRAOqrRff6cP_xJFz5AXCoV/view" target="_blank">تحميل</a></p>
+        </div>
+        <!-- Card 8 -->
+        <div class="card">
+            <h2>تحليلات البيانات من Google</h2>
+            <p><strong>الملخص:</strong> تقنيات أساسية لتحليل البيانات وعرضها بصريًا.</p>
+            <p><strong>السنة:</strong> 2022</p>
+            <p><strong>المؤسسة:</strong> Google</p>
+            <p><strong>الشهادة:</strong> <a href="images/Cer_Dat" target="_blank">عرض الصورة</a></p>
+            <p><strong>تحميل:</strong> <a href="https://www.coursera.org/account/accomplishments/professional-cert/897NRRVLEU7A?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button" target="_blank">تحميل</a></p>
+        </div>
+        <!-- Card 9 -->
+        <div class="card">
+            <h2>محلل بيانات</h2>
+            <p><strong>الملخص:</strong> مهارات تحليل البيانات المتقدمة والنمذجة الإحصائية.</p>
+            <p><strong>السنة:</strong> 2020</p>
+            <p><strong>المؤسسة:</strong> Udacity</p>
+            <p><strong>الشهادة:</strong> <a href="images/Cer_Uda" target="_blank">عرض الصورة</a></p>
+            <p><strong>تحميل:</strong> <a href="https://drive.google.com/file/d/1KhgyhzaR6i64kGxHqASNvwtwn7p1Khfw/view" target="_blank">تحميل</a></p>
+        </div>
+        <!-- Card 10 -->
+        <div class="card">
+            <h2>تطوير Front-end و Back-end</h2>
+            <p><strong>الملخص:</strong> أساسيات HTML5 و CSS و JavaScript و Bootstrap و PHP و MySQL و Laravel.</p>
+            <p><strong>السنة:</strong> 2021</p>
+            <p><strong>المؤسسة:</strong> CLS Learning Solutions</p>
+            <p><strong>الشهادة:</strong> <a href="images/Cer_CLS" target="_blank">عرض الصورة</a></p>
+            <p><strong>تحميل:</strong> <a href="https://drive.google.com/file/d/1me0eLBvHreutHUc2BLNvoup3I0Z-BQK7/view" target="_blank">تحميل</a></p>
+        </div>
+    </div>
+    <p>هناك أكثر من 30 دورة في مجالات مختلفة، مثل (إدارة المشاريع، التسويق، الإعلانات، المبيعات، التفكير الإبداعي، تطوير المسار المهني، المحاسبة، SAT، GMAT، TOEFL، الإدارة وريادة الأعمال).</p>
+</main>
+<footer>
+    <div class="links">
+        <a href="about-ar.html">من أنا</a> |
+        <a href="professional-experience-ar.html">الخبرة المهنية</a> |
+        <a href="consultant-projects-ar.html">مشاريع استشارية</a> |
+        <a href="certificates-ar.html">الشهادات</a> |
+        <a href="job-seekers-tool.html">أداة الباحثين عن عمل</a> |
+        <a href="top-management-tools-ar.html">أدوات الإدارة العليا</a>
+ <a href="TechHR-Fusion-ar.html">TechHR Fusion</a>
+    </div>
+    <p>&copy; 2024 HR Ninja. جميع الحقوق محفوظة.</p>
+</footer>
+
+</body>
+</html>

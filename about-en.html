@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - HR Ninja</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            background: black;
+        }
+        .background {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            width: 80px;
+            border-radius: 50%;
+        }
+        .language-selector {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .language-selector a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        .language-selector a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .content h1 {
+            font-size: 3em;
+        }
+        .content p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+        .links {
+            margin-top: 20px;
+            font-size: 1em;
+        }
+        .links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+        }
+        @media (max-width: 768px) {
+            .content h1 {
+                font-size: 2em;
+            }
+            .content p {
+                font-size: 1em;
+            }
+            .logo {
+                width: 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <header>
+            <a href="index-en.html"><img src="images/logo.jpg" alt="Logo" class="logo"></a>
+            <nav class="language-selector">
+                <a href="about-en.html">En</a>
+                <a href="about-ar.html">Ar</a>
+                <a href="about-fr.html">Fr</a>
+            </nav>
+        </header>
+        <main class="content">
+            <h1>About Me</h1>
+            <p>My name is Mustafa ElHassanin, and I bring over 16 years of comprehensive HR experience across various sectors, including a consultancy role with KPMG. I specialize in recruitment, organizational development, and HR strategy. My academic background includes a Bachelor's degree in Law from Ain Shams University and a Diploma in Human Resources from the Regional IT Institute (RITI).
+
+I am known for being reliable, committed, and organized, with excellent communication and interpersonal skills. Beyond traditional HR, I excel at integrating technology into HR practices. At DMA, I led AI-driven initiatives such as an employee inquiry chatbot and an AI recruitment assistant named Alfred. I also introduced data-driven tools for salary adjustments, improving efficiency and increasing salary survey processes by 50%.
+
+I am excited to bring this unique blend of expertise and innovation to organizations looking to enhance HR operations and drive positive change.</p>
+            <div class="links">
+                <a href="professional-experience-en.html">Professional Experience</a> |
+                <a href="consultant-projects-en.html">Consultant Projects</a> |
+                <a href="certificates-en.html">Certificates</a> |
+                <a href="job-seekers-tool.html">Job Seekers Tool</a> |
+                <a href="top-management-tools-en.html">Top Management Tools</a>
+ <a href="TechHR-Fusion-en.html">TechHR Fusion</a>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 HR Ninja. All rights reserved.</p>
+            <nav>
+                <a href="contact-en.html">Contact Me</a>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>

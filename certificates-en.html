@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificates - HR Ninja</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            background: black;
+        }
+        .background {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            width: 80px;
+            border-radius: 50%;
+        }
+        .language-selector {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .language-selector a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        .language-selector a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .content h1 {
+            font-size: 3em;
+        }
+        .content p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+        .links {
+            margin-top: 20px;
+            font-size: 1em;
+        }
+        .links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+        }
+        @media (max-width: 768px) {
+            .content h1 {
+                font-size: 2em;
+            }
+            .content p {
+                font-size: 1em;
+            }
+            .logo {
+                width: 60px;
+            }
+        }
+   
+        .cards-section {
+            padding: 20px;
+        }
+        .cards-section h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .cards-section p {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card {
+            background: #222;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .card h2 {
+            margin: 0 0 10px;
+            font-size: 1.5em;
+        }
+        .card p {
+            margin: 5px 0;
+            font-size: 1em;
+        }
+        .card a {
+            color: #1E90FF;
+            text-decoration: none;
+        }
+        .card a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+        footer .links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1em;
+        }
+        footer .links a:hover {
+            text-decoration: underline;
+        }
+        footer p {
+            margin: 10px 0 0;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 90%;
+            }
+            header .languages a {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+ <a href="index-en.html"><img src="images/logo.jpg" alt="Logo" class="logo"></a>
+        <div class="languages">
+            <a href="certificates-en.html">En</a> | 
+            <a href="certificates-ar.html">Ar</a> | 
+            <a href="certificates-fr.html">Fr</a>
+        </div>
+    </header>
+    <main class="cards-section">
+        <h1>Certificates</h1>
+        <p>This page showcases my diverse courses and certifications, reflecting my broad exposure and ability to integrate ideas from various fields into my career development.</p>
+        <div class="cards-container">
+            <!-- Card 1 -->
+            <div class="card">
+                <h2>Bachelor of Laws</h2>
+                <p><strong>Summary:</strong> Study of law, justice philosophy, general legal systems, international laws, with a specialization in Egyptian labor law.</p>
+                <p><strong>Year:</strong> 2007</p>
+                <p><strong>Grade:</strong> Very Good</p>
+                <p><strong>Institution:</strong> ASU</p>
+                <p><strong>Links:</strong> <a href="https://www.asu.edu.eg/ar" target="_blank">Institution</a></p>
+            </div>
+            <!-- Card 2 -->
+            <div class="card">
+                <h2>Human Resource Diploma</h2>
+                <p><strong>Summary:</strong> Strategic HR management, job analysis, personnel planning, recruitment, training, performance, and labor law.</p>
+                <p><strong>Year:</strong> 2013</p>
+                <p><strong>Grade:</strong> A+</p>
+                <p><strong>Institution:</strong> RITI</p>
+                <p><strong>Download Thesis:</strong> <a href="#" target="_blank">Download</a></p>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+                <h2>Introduction to Search Engine Optimization</h2>
+                <p><strong>Summary:</strong> Basics of improving website visibility and search rankings.</p>
+                <p><strong>Year:</strong> 2017</p>
+                <p><strong>Institution:</strong> University of California, Davis</p>
+                <p><strong>Links:</strong> <a href="https://www.coursera.org/specializations/seo#about" target="_blank">Course Summary</a> | <a href="https://www.ucdavis.edu" target="_blank">Institution</a></p>
+                <p><strong>Certificate:</strong> <a href="images/Cer_SEO" target="_blank">View Image</a></p>
+                <p><strong>Download:</strong> <a href="https://drive.google.com/file/d/1iCLL4n1M2cv8b1pHdM0Kimsd3U9RPjC4/view" target="_blank">Download</a></p>
+            </div>
+            <!-- Card 4 -->
+            <div class="card">
+                <h2>Successful Negotiation: Essential Strategies and Skills</h2>
+                <p><strong>Summary:</strong> Effective negotiation techniques for professional success.</p>
+                <p><strong>Year:</strong> 2014</p>
+                <p><strong>Institution:</strong> The Ross School of Business, University of Michigan</p>
+                <p><strong>Links:</strong> <a href="https://www.coursera.org/learn/negotiation-skills#about" target="_blank">Course Summary</a> | <a href="https://umich.edu" target="_blank">Institution</a></p>
+            </div>
+            <!-- Card 5 -->
+            <div class="card">
+                <h2>Lean Six Sigma Foundations</h2>
+                <p><strong>Summary:</strong> Lean and Six Sigma principles for process improvement.</p>
+                <p><strong>Year:</strong> 2016</p>
+                <p><strong>Institution:</strong> LinkedIn Learning</p>
+                <p><strong>Certificate:</strong> <a href="images/Cer_Lean" target="_blank">View Image</a></p>
+                <p><strong>Download:</strong> <a href="https://drive.google.com/file/d/1OKBIt2Bv5W0Q_k5G7caKPfMzHRmfaAzc/view" target="_blank">Download</a></p>
+            </div>
+            <!-- Card 6 -->
+            <div class="card">
+                <h2>Introduction to Public Speaking</h2>
+                <p><strong>Summary:</strong> Techniques for engaging and effective public speaking.</p>
+                <p><strong>Year:</strong> 2014</p>
+                <p><strong>Institution:</strong> University of Washington</p>
+                <p><strong>Links:</strong> <a href="https://www.edx.org/learn/public-speaking/university-of-washington-introduction-to-public-speaking#about" target="_blank">Course Summary</a> | <a href="https://www.washington.edu" target="_blank">Institution</a></p>
+            </div>
+            <!-- Card 7 -->
+            <div class="card">
+                <h2>Prompt Engineering for ChatGPT</h2>
+                <p><strong>Summary:</strong> Creating optimal prompts for AI models to generate meaningful responses.</p>
+                <p><strong>Year:</strong> 2024</p>
+                <p><strong>Institution:</strong> Vanderbilt University</p>
+                <p><strong>Certificate:</strong> <a href="images/Cer_GPT" target="_blank">View Image</a></p>
+                <p><strong>Download:</strong> <a href="https://drive.google.com/file/d/1YapQh-l3KMRAOqrRff6cP_xJFz5AXCoV/view" target="_blank">Download</a></p>
+            </div>
+            <!-- Card 8 -->
+            <div class="card">
+                <h2>Google Data Analytics</h2>
+                <p><strong>Summary:</strong> Foundational data analysis and visualization techniques.</p>
+                <p><strong>Year:</strong> 2022</p>
+                <p><strong>Institution:</strong> Google</p>
+                <p><strong>Certificate:</strong> <a href="images/Cer_Dat" target="_blank">View Image</a></p>
+                <p><strong>Download:</strong> <a href="https://www.coursera.org/account/accomplishments/professional-cert/897NRRVLEU7A?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button" target="_blank">Download</a></p>
+            </div>
+            <!-- Card 9 -->
+            <div class="card">
+                <h2>Data Analyst</h2>
+                <p><strong>Summary:</strong> Advanced data analysis and statistical modeling skills.</p>
+                <p><strong>Year:</strong> 2020</p>
+                <p><strong>Institution:</strong> Udacity</p>
+                <p><strong>Certificate:</strong> <a href="images/Cer_Uda" target="_blank">View Image</a></p>
+                <p><strong>Download:</strong> <a href="https://drive.google.com/file/d/1KhgyhzaR6i64kGxHqASNvwtwn7p1Khfw/view" target="_blank">Download</a></p>
+            </div>
+            <!-- Card 10 -->
+            <div class="card">
+                <h2>Front-end & Back-end Development</h2>
+                <p><strong>Summary:</strong> HTML5, CSS, JavaScript, Bootstrap, PHP, MySQL, Laravel basics.</p>
+                <p><strong>Year:</strong> 2021</p>
+                <p><strong>Institution:</strong> CLS Learning Solutions</p>
+                <p><strong>Certificate:</strong> <a href="images/Cer_CLS" target="_blank">View Image</a></p>
+                <p><strong>Download:</strong> <a href="https://drive.google.com/file/d/1me0eLBvHreutHUc2BLNvoup3I0Z-BQK7/view" target="_blank">Download</a></p>
+            </div>
+<!-- Carte 9 -->
+<div class="card">
+    <h2>Analyste de Données</h2>
+    <p><strong>Résumé :</strong> Compétences avancées en analyse de données et en modélisation statistique.</p>
+    <p><strong>Année :</strong> 2020</p>
+    <p><strong>Établissement :</strong> Udacity</p>
+    <p><strong>Certificat :</strong> <a href="images/Cer_Uda" target="_blank">Voir l'image</a></p>
+    <p><strong>Télécharger :</strong> <a href="https://drive.google.com/file/d/1KhgyhzaR6i64kGxHqASNvwtwn7p1Khfw/view" target="_blank">Télécharger</a></p>
+</div>
+<!-- Carte 10 -->
+<div class="card">
+    <h2>Développement Front-end & Back-end</h2>
+    <p><strong>Résumé :</strong> Bases de HTML5, CSS, JavaScript, Bootstrap, PHP, MySQL, Laravel.</p>
+    <p><strong>Année :</strong> 2021</p>
+    <p><strong>Établissement :</strong> CLS Learning Solutions</p>
+    <p><strong>Certificat :</strong> <a href="images/Cer_CLS" target="_blank">Voir l'image</a></p>
+    <p><strong>Télécharger :</strong> <a href="https://drive.google.com/file/d/1me0eLBvHreutHUc2BLNvoup3I0Z-BQK7/view" target="_blank">Télécharger</a></p>
+</div>
+</div>
+<p>Il y a plus de 30 cours dans différents domaines, tels que (Gestion de Projet, Marketing, Publicité, Ventes, Pensée Créative, Développement de Carrière, Comptabilité, SAT, GMAT, TOEFL, Management et Entrepreneuriat).</p>
+</main>
+<footer>
+    <div class="links">
+        <a href="about-en.html">About</a> |
+        <a href="professional-experience-en.html">Professional Experience</a> |
+        <a href="consultant-projects-en.html">Consultant Projects</a> |
+        <a href="certificates-en.html">Certificates</a> |
+        <a href="job-seekers-tool.html">Job Seekers Tool</a> |
+        <a href="top-management-tools-en.html">Top Managment Tools</a>
+ <a href="TechHR-Fusion-en.html">TechHR Fusion</a>
+    </div>
+    <p>&copy; 2024 HR Ninja. All rights reserved.</p>
+</footer>
+        
+</body>
+</html>
